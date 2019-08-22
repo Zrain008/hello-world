@@ -1,0 +1,181 @@
+body{
+	background-color: #f7f7f7;
+}
+
+/* 顶部导航 */
+
+#top-container{
+	background-color:#555;
+	border-bottom:1px solid #ecc000;
+}
+
+header .top{
+	line-height: 30px;
+	color: #fff;
+
+}
+header .top ul{
+	text-align: right;
+	margin:0;
+	padding: 0;
+}
+header .top ul li{
+	display: inline-block;
+}
+header .top ul li+li{
+	border-left: 1px solid #999;
+
+}
+header .top ul li a{
+	padding:0 15px;
+	color: #fff;
+}
+/* 顶部商品分类菜单 */
+
+header .main .brand img{
+	margin-left: 20px;
+	margin-top: 4px;
+}
+header .main ul li a{
+	padding: 0 25px;
+	line-height: 50px;
+	font-size: 16px;
+	text-align: center;
+    border-bottom: 1.5px solid transparent;
+}
+header .main ul li a:hover,
+header .main ul li a:active{
+	border-bottom: 1.5px solid #ecc000;
+}
+
+/* 广告部分 */
+#carousel-ad .carousel-inner img{
+	width: 100%;
+}
+
+/* 功能菜单 */
+.feature{
+	margin-top: 40px;
+}
+.feature .item{
+	text-align: center;
+	font-size: 14px;
+}
+.feature .item a{
+	text-decoration:none;
+	color: #777777;
+}
+.feature .item a p{
+	margin-top: 5px;
+}
+
+/* 最新公告 */
+.notice{
+	margin-top: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	box-shadow: 0 0 3px #ccc;
+}
+.notice a:first-child{
+	padding-left: 40px;
+	text-decoration: none;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;/*文本溢出不换行，多余部分用省略号显示*/
+}
+.notice a:first-child:before{
+	content: '最新公告：\00a0\00a0';
+	color: #aaa;
+}
+.notice a span{
+	color: #999;
+	margin-right: 20px;
+}
+
+.notice a.more{
+	color: #ff9900;
+}
+.notice a:hover,
+.notice a:active{
+	color: #ecc000;
+	text-decoration: none;
+}
+
+/* 商品展示 */
+.pro_title{
+	background: url(../image/xian-1.png) no-repeat center center;	
+	margin-top:50px;
+	text-align: center;
+	font-size: 26px;
+}
+.pro_list{
+	margin-top: 20px;
+}
+.pro_show{
+	background-color: #fff;
+	margin-top: 10px;
+	border:2px solid #f7f7f7;
+}
+.pro_show .pro_img{
+	width: 100%;
+}
+.pro_show a p{
+	color: #666;
+}
+.pro_show a p:hover,
+.pro_show a p:active{
+	text-decoration: none;
+	color: #000;
+}
+.pro_name{
+	height: 60px;
+	width: 100%;
+	margin-top: 10px;
+	border-top: 2px solid #f7f7f7;
+	padding: 20px 6px 0;
+	font-size: 14px;
+
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-clamp:2;
+/* 	display: -webkit-box;
+box-orient:vertical; */
+}
+.pro_price{
+	color:#ff4739;
+	font-size: 16px;
+	padding: 1rem;
+}
+
+.pro_price img{
+	width: 25px;
+	height: 25px;
+	float: right;
+}
+
+/* 页脚部分 */
+footer{
+	margin-top: 50px;
+	padding:50px 0;
+	background-color: #ededed;
+}
+footer dl{
+	text-align: center;
+}
+footer .foot_bottom{
+	border-top:2px solid #ecc000;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+img.code{
+	height: 100px;
+	width: 100px;
+}
+.container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
